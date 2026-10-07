@@ -8,7 +8,7 @@ import numpy as np
 
 EMBEDDING_MODEL = "nomic-embed-text-v2-moe"
 max_documents = 15
-splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=500)
+splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=700)
 
 documents = []
 chunks = []      
